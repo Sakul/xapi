@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  saladpuk.promptpay.api:
+    image: ${DOCKER_REGISTRY-}saladpukpromptpayapi
+    ports:
+      - 5000:80
+    build:
+      context: .
+      dockerfile: Dockerfile

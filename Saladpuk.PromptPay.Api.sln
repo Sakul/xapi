@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saladpuk.PromptPay.Api", "Saladpuk.PromptPay.Api.csproj", "{9944E523-7FD2-46A6-BA38-E47708BA62BF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{54DE2E06-E6D0-463D-BE1E-1F283B57051A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9944E523-7FD2-46A6-BA38-E47708BA62BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9944E523-7FD2-46A6-BA38-E47708BA62BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9944E523-7FD2-46A6-BA38-E47708BA62BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9944E523-7FD2-46A6-BA38-E47708BA62BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DE2E06-E6D0-463D-BE1E-1F283B57051A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DE2E06-E6D0-463D-BE1E-1F283B57051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DE2E06-E6D0-463D-BE1E-1F283B57051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DE2E06-E6D0-463D-BE1E-1F283B57051A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2FC416-17F8-4749-A411-FFCEC96A5F55}
+	EndGlobalSection
+EndGlobal
